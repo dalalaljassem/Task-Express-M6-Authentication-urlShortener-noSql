@@ -1,7 +1,7 @@
 {
   "name": "url-shortener",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Instructions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,14 +11,28 @@
   "author": "ReactifyStudio",
   "license": "MIT",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "config": "^3.3.6",
     "ejs": "^3.1.6",
-    "express": "^4.17.1",
-    "mongoose": "^5.12.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.14",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
     "shortid": "^2.2.16",
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalalaljassem/Task-Express-M6-Authentication-urlShortener-noSql.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dalalaljassem/Task-Express-M6-Authentication-urlShortener-noSql/issues"
+  },
+  "homepage": "https://github.com/dalalaljassem/Task-Express-M6-Authentication-urlShortener-noSql#readme"
 }
